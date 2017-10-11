@@ -323,9 +323,9 @@
   (diff-indicator-removed                    (:inherit 'diff-removed))
 
   ;; MODE SUPPORT: diff-hl
-  (diff-hl-change                            (:inherit 'diff-changed))
-  (diff-hl-delete                            (:inherit 'diff-removed))
-  (diff-hl-insert                            (:inherit 'diff-added))
+  (diff-hl-change                            (:foreground darktooth-muted_cyan :background darktooth-muted_cyan))
+  (diff-hl-delete                            (:foreground darktooth-muted_red :background darktooth-muted_red))
+  (diff-hl-insert                            (:foreground darktooth-muted_green :background darktooth-muted_green))
 
   (js2-warning                               (:underline (:color darktooth-bright_yellow :style 'wave)))
   (js2-error                                 (:underline (:color darktooth-bright_red :style 'wave)))
